@@ -1,8 +1,8 @@
-﻿# UK Wind Forecast Monitor
+# UK Wind Forecast Monitor
 
 Web app that helps a UK energy utility's day-ahead buying team (1) see the latest wind generation forecast available at decision time and (2) quantify how accurate those forecasts have been. Scope: January 2026, national wind only, Elexon BMRS data (WINDFOR forecasts, FUELHH actuals).
 
-**Live app:** TODO_VERCEL_URL
+**Live app:** https://kx7qwp.vercel.app
 
 ## AI tool disclosure
 
@@ -58,3 +58,4 @@ Open http://localhost:5173 (Vite proxies `/api` to Flask on port 5000).
     python fetch_data.py
 
 Run it from the repo root; then move or copy the resulting `data/` folder into `backend/data/`.
+
